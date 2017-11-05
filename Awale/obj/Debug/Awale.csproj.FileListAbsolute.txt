@@ -1,0 +1,7 @@
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\bin\Debug\Awale.exe.config
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\bin\Debug\Awale.exe
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\bin\Debug\Awale.pdb
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\obj\Debug\Awale.csprojResolveAssemblyReference.cache
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\obj\Debug\Awale.csproj.CoreCompileInputs.cache
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\obj\Debug\Awale.exe
+C:\Users\Bence\Desktop\mySVN\mySchoolProgCodes\Szoftverfejlesztes_tervezes_I\Beadando\Awale\Awale\obj\Debug\Awale.pdb
