@@ -95,16 +95,14 @@ namespace Awale
             int _position = choice;
             int _seedcount = selectedHouseSeedCount;
             int _circleIdx = _position + _seedcount;
-            bool _pointGained = false;
 
             // Overindex check (restart indexing if overindexed)
             if (_position + _seedcount >= Tablehouses.Length) { _circleIdx %= tablehouses.Length;  }
 
             // Condition whether the step is point eligible: 2 or 3 field and on opponent side
-            Trace.WriteLine("Pointeligible: " + ((tablehouses[_circleIdx] == 2) || (tablehouses[_circleIdx] == 3) && _circleIdx >= tablehouses.Length / 2) );
-            if ( (tablehouses[_circleIdx] == 2) || (tablehouses[_circleIdx] == 3) && _circleIdx >= tablehouses.Length / 2  ) {
-
-                    _pointGained = true;
+            bool _pointeligible = (tablehouses[_circleIdx] == 2) || (tablehouses[_circleIdx] == 3) && _circleIdx >= tablehouses.Length / 2;
+            Trace.WriteLine("Pointeligible: " + _pointeligible);
+            if ( _pointeligible ) {
                     int i = _circleIdx;
                 
                     while ( (i >= tablehouses.Length/2 ) && (tablehouses[i] == 2 || tablehouses[i]  == 3) ) {
@@ -115,14 +113,12 @@ namespace Awale
                 }
 
             /* Credit the acquired gains if any */
-            if (_pointGained) {
                 if (currentParticipant is Player)
                 {
                     human.Gain = count;
                 }
                 else
                     machine.Gain = count;
-            }
         }
 
         public void PerformStep(object currentParticipant)
